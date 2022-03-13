@@ -1,0 +1,37 @@
+{
+  "name": "node-mvc-sample",
+  "version": "1.0.0",
+  "description": "A NodeJS-MySQL Sample CRUD project using MVC structure developed to understand MVC in NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshithakashyap/Node-MVC-Sample.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "node",
+    "mysql",
+    "CRUD",
+    "MVC"
+  ],
+  "author": "varshithakashyap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varshithakashyap/Node-MVC-Sample/issues"
+  },
+  "homepage": "https://github.com/varshithakashyap/Node-MVC-Sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
